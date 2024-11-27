@@ -1,0 +1,30 @@
+
+nav ul {
+    list-style: none;
+    /*tira os marcadores*/
+    padding: 0;
+    margin: 0;
+    background-color: #200370;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: "Lucida Sans", "LucidaSans Regular", " Lucida Grande", " Lucida Sans Unicode", Geneva, Verdana, sansserif;
+ color: #21ff04;
+    text-decoration: none;
+    /*tira o sublinhado*/
+    padding: 15px;
+    display: inline-block;
+    /*cria um bloco com o padding
+   informado*/
+    transition: background 1s;
+}
+
+nav ul li a:hover {
+    background-color: #858484;
+    opacity: 0.5;
+}
